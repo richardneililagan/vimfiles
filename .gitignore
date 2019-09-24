@@ -72,3 +72,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/osx,windows,linux
+
+autoload/
+vendor/
+sessions/
