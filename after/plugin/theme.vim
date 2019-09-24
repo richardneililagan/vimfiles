@@ -5,6 +5,6 @@ if has('gui_running')
   color ir_black+
 else
   set termguicolors
-  let ayucolor='mirage'
-  colorscheme ayu
+  " let ayucolor='mirage'
+  colorscheme gruvbox
 endif

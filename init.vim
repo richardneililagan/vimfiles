@@ -2,6 +2,15 @@ set nocompatible
 
 let g:mapleader=' '
 
+let g:ale_completion_enabled = 1
+
+let g:airline_powerline_fonts = 1
+let g:airline_theme='distinguished'
+" let g:airline#extensions#tabline#enabled=1
+" let g:airline#extensions#branch#enabled=1
+
+" :: -------------------------------------------------------------------------
+
 call plug#begin('~/.vim/vendor')
 
 " :: plugins ---
@@ -14,6 +23,7 @@ Plug 'junegunn/fzf.vim'       " :: file picker
 
 Plug 'w0rp/ale'               " :: syntax error checking
 Plug 'tpope/vim-sleuth'       " :: detect spaces or tabs
+Plug 'tpope/vim-fugitive'     " :: git extensions
 Plug 'tpope/vim-commentary'   " :: commenting QoL
 Plug 'tpope/vim-surround'     " :: wrap text with stuff
 Plug 'tpope/vim-endwise'      " :: automatically add ending / closing syntax
@@ -26,6 +36,8 @@ Plug 'easymotion/vim-easymotion' " :: easier search
 Plug 'mhinz/vim-signify'      " :: diffs
 Plug 'mhinz/vim-startify'     " :: start screen
 Plug 'scrooloose/nerdtree'    " :: file browser
+Plug 'vim-airline/vim-airline'   " :: status bar
+Plug 'vim-airline/vim-airline-themes' 
 
 Plug 'ayu-theme/ayu-vim'      " :: theme
 Plug 'flazz/vim-colorschemes' 

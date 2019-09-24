@@ -58,7 +58,7 @@ set nostartofline
 set timeout timeoutlen=200 ttimeoutlen=10
 
 " :: minimal status
-set laststatus=0
+" set laststatus=0
 
 " :: more natural split panes
 set splitbelow
