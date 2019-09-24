@@ -8,6 +8,7 @@ if !has('gui_running') | set t_Co=256 | endif
 
 " :: catch-all ignores
 set wig+=vendor,log,logs
+set wig+=node_modules
 
 " :: no bells
 set noerrorbells
@@ -54,7 +55,10 @@ set ch=2
 set nostartofline
 
 " :: increase timeout for key motions
-set timeoutlen=200 ttimeoutlen=200
+set timeout timeoutlen=200 ttimeoutlen=10
+
+" :: minimal status
+set laststatus=0
 
 " :: more natural split panes
 set splitbelow

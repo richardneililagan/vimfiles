@@ -52,6 +52,9 @@ map s <Plug>(easymotion-s)
 map n <Plug>(easymotion-next)
 map N <Plug>(easymotion-prev)
 
+" :: toggle nerdtree
+map <C-k><C-b> :NERDTreeToggle<cr>
+
 " :: toggle comments with vim-commentary
 nmap <leader>\ gcc
 vmap <leader>\ gc

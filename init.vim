@@ -17,7 +17,6 @@ Plug 'tpope/vim-sleuth'       " :: detect spaces or tabs
 Plug 'tpope/vim-commentary'   " :: commenting QoL
 Plug 'tpope/vim-surround'     " :: wrap text with stuff
 Plug 'tpope/vim-endwise'      " :: automatically add ending / closing syntax
-Plug 'tpope/vim-vinegar'      " :: netrw, file browsing
 Plug 'sheerun/vim-polyglot'   " :: automatic language support
 Plug 'junegunn/goyo.vim'      " :: zen
 Plug 'junegunn/limelight.vim' " :: zen focus
@@ -25,6 +24,8 @@ Plug 'schickling/vim-bufonly' " :: delete all buffers except current one
 Plug 'moll/vim-bbye'          " :: close buffers conveniently
 Plug 'easymotion/vim-easymotion' " :: easier search
 Plug 'mhinz/vim-signify'      " :: diffs
+Plug 'mhinz/vim-startify'     " :: start screen
+Plug 'scrooloose/nerdtree'    " :: file browser
 
 Plug 'ayu-theme/ayu-vim'      " :: theme
 Plug 'flazz/vim-colorschemes' 
