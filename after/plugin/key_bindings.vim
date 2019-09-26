@@ -7,7 +7,7 @@ nnoremap <C-s> :w<CR>
 
 " :: ctrl-p --- open file via fzf
 if exists(':FZF')
-  nnoremap <C-p> :FZF!<cr>
+  nnoremap <C-p> :FZF -i $PWD<cr>
 endif
 
 " :: better movement in wrapped text

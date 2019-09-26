@@ -9,6 +9,9 @@ let g:airline_theme='distinguished'
 " let g:airline#extensions#tabline#enabled=1
 " let g:airline#extensions#branch#enabled=1
 
+" let g:buffet_powerline_separators = 1
+let g:buffet_use_devicons = 1
+
 " :: -------------------------------------------------------------------------
 
 call plug#begin('~/.vim/vendor')
@@ -36,6 +39,8 @@ Plug 'easymotion/vim-easymotion' " :: easier search
 Plug 'mhinz/vim-signify'      " :: diffs
 Plug 'mhinz/vim-startify'     " :: start screen
 Plug 'scrooloose/nerdtree'    " :: file browser
+Plug 'bagrat/vim-buffet'      " :: tab bars
+Plug 'ryanoasis/vim-devicons' " :: YASS
 Plug 'vim-airline/vim-airline'   " :: status bar
 Plug 'vim-airline/vim-airline-themes' 
 

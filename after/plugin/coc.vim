@@ -50,3 +50,11 @@ vmap <leader>cf <Plug>(coc-format-selected)
 nmap <leader>ca <Plug>(coc-codeaction-selected)
 vmap <leader>ca <Plug>(coc-codeaction-selected)
 
+" multiple cursors
+nmap <silent> <C-c> <Plug>(coc-cursors-position)
+nmap <silent> <C-d> <Plug>(coc-cursors-word)
+xmap <silent> <C-d> <Plug>(coc-cursors-range)
+nmap <leader>x <Plug>(coc-cursors-operator)
+
+" refactor
+nmap <silent> <leader>rr <Plug>(coc-refactor)
